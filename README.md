@@ -1,52 +1,59 @@
+
 # Salon Business Analytics
 
-## About the Project
+## About
 
-This project uses Python to analyse salon business data and understand business performance.
+This project uses Python to analyse salon business data.
+
+All datasets are simulated for learning and analysis.
 
 ## Objectives
 
-- Analyse customer appointments.
-- Find popular salon services.
+- Analyse appointments.
+- Find popular services.
 - Study customer retention.
-- Analyse revenue and no-show rates.
+- Analyse revenue.
 - Perform A/B testing.
-- Apply Difference-in-Differences (DiD) analysis.
+- Perform DiD analysis.
 
-## Technologies Used
+## Tools Used
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - SciPy
+- Statsmodels
 
-## Project Files
+## Main Files
 
-| File | Description |
+| File | Purpose |
 |---|---|
-| `appointments_raw.csv` | Raw appointment data |
-| `appointments_cleaned.csv` | Cleaned appointment data |
-| `product_sales.csv` | Product sales data |
-| `outlets.csv` | Salon outlet details |
-| `stylists.csv` | Stylist details |
-| `ab_experiment.csv` | A/B testing data |
-| `historical_did_weekly.csv` | Historical data for DiD |
-| `main.py` | Python analysis code |
+| `main.py` | Data analysis |
+| `pretrend_test.py` | Pre-trend test |
+| `did_estimation.py` | DiD analysis |
 
-## Key Analysis
+## Analysis
 
 - Data Cleaning
-- Exploratory Data Analysis (EDA)
+- Data Visualisation
 - Customer Retention
 - Revenue Analysis
 - A/B Testing
-- Causal Analysis
-- Data Visualisation
+- DiD Analysis
 
-## Installation
-
-Install the required libraries:
+## Install Libraries
 
 ```bash
-pip install pandas numpy matplotlib scipy
+pip install pandas numpy matplotlib scipy statsmodels
+```
+
+## Run
+
+```bash
+python main.py
+```
+
+## Author
+
+Yash Pratap
